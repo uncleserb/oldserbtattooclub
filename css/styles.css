@@ -96,55 +96,6 @@ body {
   color: #000;
 }
 
-.typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink .7s infinite;
-  -moz-animation: blink .7s infinite;
-  animation: blink .7s infinite;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 .menubar {
   margin-bottom: 0 !important;
   background-color: #1D1D1D;
@@ -199,7 +150,6 @@ body {
 /* Banner */
 
 /* Features */
-
 .features {
   padding: 100px 0 100px;
   border-bottom: 2px solid rgba(0, 0, 0, .1);
