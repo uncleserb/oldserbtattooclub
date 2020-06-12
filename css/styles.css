@@ -162,7 +162,7 @@ body {
   font-size: 34px !important;
   background: url("../images/logo.png") no-repeat center center;
   width: 250px;
-  transition: background ease-in .2s;
+  transition: all ease-in .2s;
 }
 
 .logo:hover {
