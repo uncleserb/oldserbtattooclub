@@ -30,7 +30,6 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=26eecd1ffe5012eacb9246ee12102b784a061b21'>
     </script>
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
     <script>
@@ -376,29 +375,6 @@
       <script type="text/javascript" src="js/jquery.countTo.js"></script>
       <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
       <script type="text/javascript" src="js/jquery.quovolver.js"></script>
-      <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=26eecd1ffe5012eacb9246ee12102b784a061b21'></script>
-      <script type='text/javascript'>
-        function init_map() {
-          var myOptions = {
-            zoom: 16,
-            center: new google.maps.LatLng(42.69841700000001, 2.8961570000000165),
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-          };
-          map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-          marker = new google.maps.Marker({
-            map: map,
-            position: new google.maps.LatLng(42.69841700000001, 2.8961570000000165)
-          });
-          infowindow = new google.maps.InfoWindow({
-            content: '<strong>Oldserb Tattoo Club</strong><br>1 rue du Théâtre<br>66000 Perpignan<br>'
-          });
-          google.maps.event.addListener(marker, 'click', function () {
-            infowindow.open(map, marker);
-          });
-          infowindow.open(map, marker);
-        }
-        google.maps.event.addDomListener(window, 'load', init_map);
-      </script>
       <script>
         $(function () {
           var windowH = $(window).height();
