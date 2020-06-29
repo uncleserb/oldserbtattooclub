@@ -72,6 +72,11 @@ p {
 
 a {
   color: var(--TallPoppy);
+  transition: color ease-in .15s;
+}
+
+a:hover {
+  color: var(--Gainsboro);
 }
 
 .section-title {
