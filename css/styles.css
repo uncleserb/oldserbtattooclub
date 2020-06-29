@@ -313,7 +313,7 @@ a:hover {
 }
 
 .social a {
-  display: inline-block;
+  display: block;
   font-size: calc(.44rem + 1vw);
 }
 
