@@ -345,6 +345,14 @@ a:hover {
     padding: 0;
   }
 
+  .hero-content-wrapper {
+    grid-template-columns: .5fr repeat(2, 1fr) .5fr;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
   .intro-card {
     margin-right: 0;
   }
