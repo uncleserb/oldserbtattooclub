@@ -291,7 +291,7 @@ a:hover {
 }
 
 .contact address a {
-  display: block;
+  display: inline-block;
 }
 
 .contact address p,
@@ -313,7 +313,7 @@ a:hover {
 }
 
 .social a {
-  display: block;
+  display: inline-block;
   font-size: calc(.44rem + 1vw);
 }
 
