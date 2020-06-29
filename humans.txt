@@ -1,0 +1,11 @@
+/* TEAM */
+Made by: Paul Nevin
+Site: https://github.com/uncleserb
+Twitter: https://twitter.com/uncleserb
+Location: Paris, France
+
+/* SITE */
+Last update: 2020/06/29
+Standards: HTML5, CSS3, JavaScript
+Components: Normalize.css, jQuery, stylelint, Guetzli
+Software: Visual Code & Firefox
