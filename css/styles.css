@@ -193,7 +193,7 @@ a {
 .intro-card {
   background-color: var(--Gainsboro);
   margin-right: 1rem;
-  align-self: flex-start;
+  align-self: stretch;
   transition: all ease-in .15s;
 }
 
